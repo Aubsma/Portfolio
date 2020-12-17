@@ -1,0 +1,135 @@
+body{
+    overflow-x: hidden;
+    font-family:'Montserrat', sans-serif;
+    color: black;
+}
+
+#mystyle .navbar-brand {
+    letter-spacing: .2rem;
+    color: rgb(7, 7, 122);
+    font-size: 4.2rem;
+    font-style: italic;
+}
+
+#mystyle .navbar{ 
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+#mystyle .nav-item{
+    padding: .5rem;
+}
+
+#mystyle .nav-link{
+    color:rgb(95, 95, 104);
+    font-size: 1.5rem;
+}
+
+#mystyle .nav-link.active,
+#mystyle .nav-link.hover{
+    color: rgb(81, 81, 141);
+    font-size: 2.2rem;
+}
+
+#box .container-fluid{
+    width: 80%;
+    margin:2%,8%;
+}
+
+#aubrey{
+    float:left; 
+    height: 30rem;
+    width: 24rem;
+    padding: 1rem;
+    margin-left: 0;
+    border-width: 10px;
+    border-radius: 40px;
+}
+
+#about-me{
+    overflow-wrap: break-word;
+    font-size: 25px;
+    margin-top: 1%;
+    margin-right: 6%;
+}
+
+#charming{
+    font-style: italic;
+    color: purple;
+}
+#lendio{
+    font-style: italic;
+}
+
+#one{ 
+    float: left;
+    padding: 8px;
+    width: 22rem;
+    height: 17rem;
+}
+
+#two {
+    float: right;
+    padding: 8px;
+    text-align: right;
+    width: 22rem;
+}
+
+#three {
+    float: left;
+    padding: 8px;
+    width: 22rem;
+    height: 16rem;
+}
+
+#four {
+     float: right;
+     padding: 8px;
+     text-align: right;
+     width: 22rem;
+     height: 22rem;
+ }
+
+input[type=text], select,textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize:vertical;
+}
+
+input[type=submit] {
+background-color: rgb(219, 215, 215);
+color: navy;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: olive;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#fname .container {
+    font-size: 20px;
+}
+
+
+@media (max-width: 1199.98px){
+
+}
+@media (max-width: 767.98px){
+
+}
+

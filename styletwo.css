@@ -14,8 +14,11 @@ body{
 }
 
 #portfolio {
-    font-size: 7rem;
+    font-size: 8rem;
     margin-top: 18rem;
+}
+.name{
+    font-size: 2rem;
 }
 
 #about {

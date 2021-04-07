@@ -9,16 +9,18 @@ body{
     top: 0;
     bottom: 0;
     left: 0;
-    right: 50%;
+    right: 65%;
     z-index: -1;
 }
 
 #portfolio {
     font-size: 8rem;
     margin-top: 18rem;
+    white-space: pre-wrap;
 }
 .name{
     font-size: 2rem;
+    white-space: pre-wrap;
 }
 
 #about {
@@ -28,7 +30,7 @@ body{
 
 .navbar {
     background:rgb(255,186,8) !important;
-    padding: 30px !important;
+    padding: 16px !important;
 }
 .navbar-brand {
     font-size: 58px !important;
@@ -40,6 +42,31 @@ body{
 }
 .active {
     color: rgb(214,40,40) !important;
+}
+
+#about {
+    background-color: rgb(223, 95, 95);
+    position: fixed;
+    top: 20%;
+    bottom: 10%;
+    left: 0;
+    right: 45%;
+    z-index: -1;
+}
+
+#aboutme{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+#CS{
+    color: rgb(15, 124, 62);
+    text-decoration: none;
+}
+
+#RM{
+    color: rgb(15, 124, 62);
+    text-decoration: none;
 }
 
 @media (max-width: 1199.98px){

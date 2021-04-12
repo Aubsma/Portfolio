@@ -78,6 +78,14 @@ footer{
     text-decoration: none;
 }
 
+#tcpic{
+    position: justify;
+    /* width: 40%; */
+    /* height: 50%; */
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
 input[type=text], select,textarea{
     width: 100%;
     padding: 12px;

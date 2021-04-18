@@ -108,7 +108,7 @@ width: 25%;
 }
 
 input[type=submit]:hover {
-    background-color: olive;
+    background-color: rgb(0,174,240);
 }
 
 .container {
